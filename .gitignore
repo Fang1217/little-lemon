@@ -1,0 +1,77 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media and static files
+/media/
+/staticfiles/
+/static/
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+pyvenv.cfg
+
+
+# Extra virtualenv and Python tool files
+.env/
+.python_env/
+.envrc
+.python-version
+Pipfile
+Pipfile.lock
+poetry.lock
+.mypy_cache/
+.pytest_cache/
+
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.idea/
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations
+*/migrations/
+*/migrations/*.pyc
+*/migrations/*.py
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Packages and dependencies
+Lib/*
+Scripts/*
