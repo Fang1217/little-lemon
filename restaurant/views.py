@@ -54,6 +54,8 @@ class MenuView(generics.ListCreateAPIView):
     serializer_class = MenuSerializer
     permission_classes = [IsAuthenticated]
 
+    def __str__(self):
+        return f'{self.title} : {str(self.price)}'
 
 class MenuItemView(generics.RetrieveUpdateAPIView, generics.DestroyAPIView):
     queryset = Menu.objects.all()
